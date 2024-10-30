@@ -1,0 +1,69 @@
+/* 전체적인 네비게이션 메뉴 스타일 */
+.menunav {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 15px 0;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+  backdrop-filter: blur(6px);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.menunav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menunav ul li {
+  margin: 0 20px;
+}
+
+.menunav ul li a, .menunav ul li button {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #555;
+  letter-spacing: 1.2px;
+  text-decoration: none;
+  transition: color 0.3s ease, transform 0.3s ease;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.menunav ul li a:hover, .menunav ul li button:hover {
+  color: #ff6868;
+  transform: scale(1.1);
+}
+
+/* 메인 페이지 스타일 */
+.main {
+  width: 90%;
+  max-width: 1000px;
+  margin: 40px auto;
+  text-align: center;
+  background: linear-gradient(135deg, #fbe6e6, #f3d7ec);
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.main h1 {
+  font-size: 3.2rem;
+  color: #3a3d46;
+  text-shadow: 1px 2px 6px rgba(0, 0, 0, 0.15);
+  margin-bottom: 16px;
+}
+
+.main h2 {
+  font-size: 1.8rem;
+  color: #52575c;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
